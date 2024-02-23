@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container {
     display: flex;
     justify-content: space-between;
@@ -15,6 +20,7 @@
 
 }
 .item3 {
+    
     width: auto;
     display: flex;
     justify-content: center;
@@ -24,7 +30,7 @@
 .sub1{
     margin: 10px;
 }
-.subitem1 {
+.item3 > div:last-child{
     width: 50px;
     height: 50px;
     margin: 0px 5px 0px 0px;
@@ -34,7 +40,7 @@
     background-color: gray;
     border: 2px solid gainsboro;
 }
-.subitem2 {
+.item3 >div:first-child{
     width: 50px;
     margin: 0px 5px 0px 0px;
     height: 50px;
@@ -43,4 +49,12 @@
     align-items: center;
     background-color: gray;
     border: 2px solid gainsboro;
+}
+nav ul div{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-between;
 }
