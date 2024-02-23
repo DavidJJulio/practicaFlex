@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.item3 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub1{
+    margin: 10px;
+}
+.subitem1 {
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border: 2px solid gainsboro;
+}
+.subitem2 {
+    width: 50px;
+    margin: 0px 5px 0px 0px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border: 2px solid gainsboro;
+}
