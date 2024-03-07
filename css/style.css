@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.titulo {
+    width: 1000px;
+    height: 20vh;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.BarraVerde {
+    width: 1000px;
+    height: 5vh;
+    background-color: rgb(76, 209, 165);
+    display: flex;
+    
+}
+.BarraVerde ul {
+    width: 1000px;
+    height: 35.9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item_1 {
+    width: 500px;
+    height: 35.9px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.item_2 {
+    width: 250px;
+    height: 35.9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.item_1 li,
+.item_2 li {
+    list-style: none;
+}
+.item_1 a,
+.item_2 a {
+    text-decoration: none;
+}
