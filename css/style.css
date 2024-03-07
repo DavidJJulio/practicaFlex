@@ -1,0 +1,17 @@
+.container {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+
+}
+.container div {
+    width: 400px;
+    background-image: url(https://via.placeholder.com/400x400.png?text=Aprende+Flexbox);
+    background-size: cover;
+    height: 400px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: rgb(192, 192, 192) 0px 20px 20px 18px;
+}
