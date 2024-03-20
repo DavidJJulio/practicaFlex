@@ -58,3 +58,11 @@ nav ul div{
     align-items: center; 
     justify-content: space-between;
 }
+nav ul div a {
+    text-decoration: none;
+    color: black;
+}
+.item3 div a {
+    text-decoration: none;
+    color: black;
+}
